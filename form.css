@@ -1,0 +1,38 @@
+
+#form_container
+{
+	padding:15px 15px;
+	margin-top:15px;
+	background: rgba(255,255,255,0.75);	
+}
+body
+{
+	background-color: rgb(255, 255, 255);
+	
+}
+#title{
+    color: teal;
+    font-family: "Courier New" ;
+    font-style: oblique;
+    font-size: 60px;
+    border-right-width: 20px;
+    text-align: center;
+}
+
+.btn-group button {
+    background-color: teal; /* Green background */
+    border: 1px solid teal; /* Green border */
+    color: white; /* White text */
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 20px; /* Some padding */
+    cursor: crosshair; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    
+  }
+  #message{
+	  width: 600px;
+  }
+
+
+

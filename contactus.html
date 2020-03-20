@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <style>
+        li {
+
+            list-style-type: none;
+
+            display: inline;
+
+        }
+       
+
+        a {
+
+            text-decoration: none;
+
+            padding: 30px;
+
+            font-family: 'Courier New', Courier, monospace;
+
+            font-size: 1.2em;
+
+            color: white;
+
+        }
+
+
+        a:hover {
+
+            font-weight: bolder;
+
+            background-color: teal;
+
+            padding: 10px;
+
+
+
+        }
+
+        a:active {
+
+            color: yellow;
+
+        }
+
+        a:visited {
+            background-color: white;
+
+            color: teal;
+
+        }
+
+        nav {
+
+            background-color: #3f3f3f;
+
+            border: groove 5px;
+
+            border-radius: 5px;
+
+        }
+
+        div {
+
+            width: 100%;
+
+        }
+        #container{
+            width: 100%;
+            height: 550px;
+            background-color: teal;
+        }
+        #formdiv{
+            width: 50%;
+            height: 470px;
+            margin: auto;
+            margin-top: 12.5px;
+            background-color: white;
+            border: groove 5px;
+            border-radius: 10px;
+        }
+        form{
+            text-align: center;
+            width: 100%;
+        }
+         form input, form textarea{
+            width: 90%;
+            border: groove 2px;
+            border-radius: 5px;
+        }  footer{
+        position: absolute;
+        width: 100%;
+        top: 700px;
+        margin: auto;
+        height: auto;
+        background-color:#3f3f3f;
+    }
+    footer nav{
+        display: inline-block; height: auto;background-color: #3f3f3f; border: none; margin-left: 30% ;
+    }   
+    footer li{
+        list-style-type: none; 
+    }
+    footer a{
+        font-family: 'Courier New', Courier, monospace; font-size: .8em; color: white;
+    }
+    footer a:hover{
+        color: white; background-color: teal ;
+    }
+    footer p{
+        text-align: center;
+        color: white;
+    }
+    </style>
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Contact Us</title>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="form.css">
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <ul>
+
+                <li><a href="./index.html">Home</a></li>
+
+
+
+                <li><a href="./aboutus.html">About Us</a></li>
+
+                <li><a href="./products.html">Our Products</a></li>
+
+                <li><a href="./contactus.html">contact</a></li>
+
+         
+
+
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <h1 id="title"> Contact Us</h1>
+    <div id="container"> <div id="formdiv">
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Enter First name"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Enter Last name"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" placeholder="Ex: example@example.com"><br>
+
+
+            <label for="tel">Phone Number:</label><br>
+            <input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required
+                placeholder="Ex: 999-999-9999"> <br>
+            <label for="text">Comments:</label><br>
+            <textarea name="textarea" id="textarea" cols="30" rows="5" placeholder="Enter Text here"></textarea><br>
+            <button onclick="myFunction()">Submit</button> </form>
+    </div>
+
+
+    </div>
+   
+    <script>
+
+        function myFunction() {
+            alert("Your Response Has Been Submitted, Thanks for Your Feedback");
+        }
+    </script>
+
+<footer><nav><ul>
+    <li><a href="index.html">home</a></li>
+    
+  <li><a href="./aboutus.html">About Us</a></li>
+
+  <li><a href="./ourproducts.html">Our Products</a></li>
+
+  <li><a href="./contactus.html">contact</a></li>
+
+</ul>
+
+</nav>
+<p>
+  ©C&G Systems Engineers LLC 2019-2020
+</p></footer>
+
+
+
+
+</body>
+
+</html>

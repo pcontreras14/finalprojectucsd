@@ -1,0 +1,57 @@
+/*Heading Styling*/
+#title{
+    color: teal;
+    font-family: 'Chakra Petch', sans-serif; ;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+}
+body{
+    background-color: white;
+   
+} 
+img{
+    width: 100%;
+    height: 400px;
+        
+    }
+#p1{
+    color: teal;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+}
+#x{
+    color: teal;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-group button {
+    background-color: teal; /* Green background */
+    border: 1px solid teal; /* Green border */
+    color: white; /* White text */
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 24px 60px; /* Some padding */
+    cursor: crosshair; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #0f647e;
+  }

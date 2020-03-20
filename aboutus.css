@@ -1,0 +1,30 @@
+#title{
+
+    color: teal;
+
+    font-family: "Courier New" ;
+
+    font-style: oblique;
+
+    font-size: 60px;
+
+}
+
+body{
+
+    background-color: white;
+
+   
+
+} #title{
+    color: teal;
+    font-family: "Courier New" ;
+    font-style: oblique;
+    font-size: 60px;
+    border-right-width: 20px;
+    text-align: center;
+}
+
+
+
+  
